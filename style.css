@@ -1,0 +1,111 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+header {
+  width: 60%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+header > img {
+  display: block;
+  margin-top: 5 px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+header > h1 {
+  color: #00dd00;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav{
+  background-color: #00dd00;
+  margin: auto;
+  padding: 10px;
+}
+
+nav > div {
+  text-align: center;
+}
+
+main {
+  color: white;
+}
+
+main > h2 {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: : 7px;
+}
+
+main > p {
+  margin: 5px;
+}
+
+
+.container {
+  width: 1000px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background-color: hsl(241, 100%, 0%, 0.5);
+  border-radius: 3%;
+}
+
+.container2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 80%;
+  padding-top: 30px;
+}
+
+
+
+
+
+
+.barra1container {
+  width: 33%;
+  background-color: orange;
+  border-radius: 3px;
+  padding-top: 7px;
+}
+.barra1 {
+  display: inline-block;
+}
+
+
+.barra2container {
+  width: 65%;
+  background-color: #00dd00;
+  border-radius: 3px;
+  padding-top: 7px;
+}
+.barra2 {
+  display: inline-block;
+}
+
+
+.barra3container {
+  width: 20%;
+  background-color: red;
+  border-radius: 3px;
+  padding-top: 7px;
+}
+.barra3 {
+  display: inline-block;
+}
